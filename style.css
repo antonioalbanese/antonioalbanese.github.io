@@ -501,8 +501,9 @@ button.emphasized.top:hover{
     }
     .info-right {
         float: left;
-        width: calc(100% - var(--infos-margin) - var(--info-padding)*2);
-        padding: var(--info-padding) 0 var(--info-padding) var(--info-padding);
+        margin: 0;
+        width: calc(100% - var(--infos-margin)*2);
+        padding: var(--info-padding) var(--info-padding) var(--info-padding) var(--info-padding);
     }
     .column {
         width:100%;
@@ -518,10 +519,10 @@ button.emphasized.top:hover{
         display: inline-block;
         border-radius: 50%;
     }
-    .info-right>.name-container>h1{
+    .info-right>.name-container>h1 {
         max-width: 50%;
         float: left;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .name-container{
         width: 100%;
