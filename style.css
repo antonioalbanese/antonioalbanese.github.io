@@ -532,7 +532,6 @@ button.emphasized.top:hover{
         float:left;
     }
     .details-container{
-        display: flex!important;
         margin-top:10px;
     }
 }
