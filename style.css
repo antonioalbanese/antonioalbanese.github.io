@@ -468,7 +468,7 @@ button.emphasized.top:hover{
 
 
 /*****MEDIA QUERY***/
-@media only screen and (max-width: 1199px){
+@media all and (max-width: 1199px){
     .minimized{
         display: inline;
     }
@@ -495,7 +495,7 @@ button.emphasized.top:hover{
 }
 
 
-@media only screen and (max-width: 727px){
+@media all and (max-width: 727px){
     .info-left{
         display: none;
     }
@@ -535,7 +535,7 @@ button.emphasized.top:hover{
     }
 }
 
-@media only screen and (max-width: 938px){
+@media all and (max-width: 938px){
     .details-container{
         display: inline-block;
         width: 100%;
