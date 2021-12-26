@@ -113,6 +113,9 @@ body{
 	width: fit-content;
 	padding-right: 20px;
 	position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .timeline{
@@ -215,17 +218,8 @@ button.emphasized:hover{
 	color: var(--back-blue);; 
 }
 
-.timeline::before {
-    content: '';
-    width: 40px;
-    height: 4px;
-    position: absolute;
-    background: var(--back-blue);
-    border-radius: 5px;
-    bottom: -96px;
-}
 
-/*.section>h2:before {
+.section>h2:before {
     content: '';
     width: 40px;
     height: 4px;
@@ -233,7 +227,7 @@ button.emphasized:hover{
     background: var(--back-blue);
     top: 38px;
     border-radius:5px;
-}*/
+}
 
 .expanding-button{
     margin-right: 20px;
