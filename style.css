@@ -500,6 +500,9 @@ button.emphasized.top:hover{
 
 
 @media all and (max-width: 727px){
+    .topBar.toRight {
+        margin-right:0;
+    }
     .info-left{
         display: none;
     }
