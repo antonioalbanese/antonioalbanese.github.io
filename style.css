@@ -101,41 +101,6 @@ body{
     float: left;
 }
 
-/*
-.pop-btn-cont>button, .info-right>button, .info-right>.pop>button, .activity>p>button{
-	line-height: var(--body-font-size);
-	margin-right: 20px;
-	height: 2.5rem;
-	border-radius: 1.5rem;
-	padding: 0.5rem 1rem;
-	font-size: 1rem;
-	background: white;
-	border: none;
-	box-shadow: 0 0 7px var(--shadow-grey-btn);
-}
-
-.pop-btn-cont>button:hover, .info-right>.pop>button:hover, .info-right>button:hover, .activity>p>button:hover, .pop-btn-cont>button:focus, .info-right>.pop>button:focus, .info-right>button:focus, .activity>p>button:focus{
-	background: var(--back-blue-light);
-	color: var(--back-blue);
-	outline: none!important;
-}
-*/
-.pop{
-	width: auto;
-}
-
-
-.popover{
-	font-family: var(--page-font)!important;
-	background: white;
-	border-radius: 25px;
-	border: 2px solid var(--back-blue);
-}
-
-.popover-body{
-	color: red;
-}
-
 
 .section{
 	float: left;
@@ -149,51 +114,6 @@ body{
 	padding-right: 20px;
 	position: relative;
 }
-/*
-.section>h2>span{
-	border-bottom: 4px solid var(--back-blue);
-	width: fit-content;
-}
-
-
-
-.activity>p, .activity>h3, .activity>h4, .period, .period>h3{
-	font-size: 1.2rem;
-	margin: 0;
-} 
-
-.activity{
-	padding-bottom: 20px;
-}
-
-.activity>h3{
-	font-weight: 700;
-}
-
-.activity>h4{
-	font-style: italic;
-	color: var(--period-grey);
-}
-
-.activity>p{
-	color: var(--period-grey);
-	margin-bottom: 10px;
-}
-
-.period{
-	min-width: 230px;
-	display: flex;
-	align-items: flex-start;
-	text-align: flex-end;
-	justify-content: flex-end;
-	padding-right: 10px;
-	color: var(--back-blue);
-}
-*/
-
-
-
-
 
 .timeline{
 	margin: 20px 0 0 0;
