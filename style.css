@@ -505,7 +505,8 @@ button.emphasized.top:hover{
         padding: var(--info-padding) 0 var(--info-padding) var(--info-padding);
     }
     .column {
-        width: calc(100% - var(--infos-margin)*2);
+        width:100%;
+        /*width: calc(100% - var(--infos-margin)*2);*/
     }
     .info{
         width: calc(100% - var(--infos-margin)*2 - var(--info-padding)*2);
