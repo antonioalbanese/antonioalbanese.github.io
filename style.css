@@ -24,6 +24,10 @@ a, a:visited, a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
+.item-company > a, .item-company > a:visited, .item-company > a:active, .item-company > a:focus {
+    text-decoration: underline;
+}
+
 
 *, ::after, ::before {
 	box-sizing: content-box!important;
@@ -39,6 +43,19 @@ body{
 	padding:  0;
 	background: white;
 }
+
+.footer_container {
+    border-top: 1px solid #cccccc;
+    float: left;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
 .noboot{
 	background: whites;
 	font-family: var(--page-font);
